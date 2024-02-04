@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2Cinema</string>
+    <string name="app_description">
+        2Cinema es la app definitivo para organizar y compartir tus experiencias cinematográficas.
+        Crea listas personalizadas de tus películas favoritas, clasifícalas por género, director o
+        cualquier criterio que elijas. Con una interfaz intuitiva y fácil de usar, 2Cinema te permite
+        explorar nuevas películas, marcar las que ya has visto y descubrir gemas ocultas.
+    </string>
+</resources>

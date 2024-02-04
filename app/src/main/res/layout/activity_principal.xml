@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!--Texto de bienvenida-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="¡Bienvenido!"
+        android:textSize="24sp"
+        android:gravity="center"/>
+
+    <!-- Imagen -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="5"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo" />
+
+    <!-- Cuadro de texto -->
+    <EditText
+        android:id="@+id/editTextUsuario"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="5dp"
+        android:layout_weight="2"
+        android:hint="usuario"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Creditos"
+        android:onClick="irACreditActivity"/>
+
+</LinearLayout>
